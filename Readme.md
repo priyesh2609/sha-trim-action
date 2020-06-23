@@ -1,6 +1,6 @@
 # Git SHA trim javascript action
 
-This action trims the Git SHA to desired length and store it to the environment variable - TRIMMED_SHA
+This action trims the Git SHA to desired length and store it to the environment variable - `TRIMMED_SHA`
 
 ## Inputs
 
