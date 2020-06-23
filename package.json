@@ -1,0 +1,22 @@
+{
+  "name": "sha-trim-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdeath2609/sha-trim-action.git"
+  },
+  "author": "Priyesh Patel <priyesh.dev26@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drdeath2609/sha-trim-action/issues"
+  },
+  "homepage": "https://github.com/drdeath2609/sha-trim-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4"
+  }
+}

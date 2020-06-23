@@ -1,0 +1,19 @@
+name: 'Test the action'
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: run action
+      id: run_action
+      uses: ./
+      with:
+        sha-length: 7
+        prefix: 'sha'
+        join-by: '-'
+    - name: log action outcome
+      run: echo $TRIMMED_SHA
