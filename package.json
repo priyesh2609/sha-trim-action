@@ -18,5 +18,8 @@
   "homepage": "https://github.com/drdeath2609/sha-trim-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.4"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
   }
 }
