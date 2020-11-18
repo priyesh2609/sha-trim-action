@@ -10,7 +10,6 @@ try {
   const joinBy = core.getInput('join-by') || '';
   const sha = process.env.GITHUB_SHA;
   const TRIMMED_SHA = `${prefix}${joinBy}${sha.slice(0, parseInt(shaLength))}`;
-  console.log(`Final string - ${TRIMMED_SHA}`);
   // Setting the string to environment variable TRIMMED_SHA
   core.exportVariable('TRIMMED_SHA', TRIMMED_SHA);
 } catch (error) {
