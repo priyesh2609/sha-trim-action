@@ -8,15 +8,19 @@ inputs:
   sha-length:  # id of input
     description: 'Desired length of git SHA to trim with from the beginning'
     required: true
-    default: 7
+    default: '7'
   prefix:
     description: 'Prefix the trimmed SHA with'
-    require: false
+    required: false
     default: ''
   join-by:
     description: 'Character to separate prefix with trimmed SHA'
     required: false
     default: ''
+  env-name:  # id of input
+    description: 'name of the env variable you want to set'
+    required: false
+    default: 'TRIMMED_SHA'
 runs:
   using: 'node12'
   main: 'dist/index.js'
