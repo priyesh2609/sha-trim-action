@@ -16,6 +16,10 @@ This action trims the Git SHA to desired length and store it to the environment 
 
 **Optional** Character to separate prefix with trimmed SHA. Default `""`.
 
+### `env-name`
+
+**Optional** Destination environment variable to set the final string. Default `"TRIMMED_SHA"`.
+
 ## Example usage
 
 ```
@@ -24,4 +28,5 @@ with:
   sha-length: 7
   prefix: 'sha'
   join-by: '-'
+  env-name: 'TRIMMED_SHA'
 ```
