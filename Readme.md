@@ -23,7 +23,7 @@ This action trims the Git SHA to desired length and store it to the environment 
 ## Example usage
 
 ```
-uses: drdeath2609/sha-trim-action@v1
+uses: priyesh2609/sha-trim-action@v1.1.2
 with:
   sha-length: 7
   prefix: 'sha'
