@@ -20,6 +20,6 @@
     "@actions/core": "^1.2.6"
   },
   "devDependencies": {
-    "husky": "^4.2.5"
+    "husky": "^8.0.3"
   }
 }
